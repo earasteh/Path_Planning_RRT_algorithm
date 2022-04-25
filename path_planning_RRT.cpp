@@ -299,7 +299,7 @@ public:
 int main()
 {
 
-    RRT rrt(1, 1, 10, 15);
+    RRT rrt(1, 1, 20, 15);
     //rrt.printRRT(rrt);
     double checkpath = rrt.lookForPath();
 #ifdef PLOT
